@@ -4,7 +4,7 @@ import sys
 def main():
     while True:
         print("\n--- Base64 Tool (Tippe 'exit' zum Beenden) ---")
-        mode = input("Möchtest du (e)ncoden, (d)ecoden? ").lower()
+        mode = input("Möchtest du (e)ncoden, (d)ecoden? ").lower().strip()
         if mode == 'exit':
             break
         
