@@ -12,8 +12,8 @@ RUN apt-get update \
 WORKDIR /app
 
 # Kopiere die app.py von deinem Rechner in den Container
-COPY app.py .
+COPY b64_tool.py .
 
 # Befehl, der ausgeführt wird, wenn der Container startet
 # -u sorgt dafür, dass die Ausgabe sofort in der Konsole erscheint
-CMD ["python", "-u", "base64.py"]
+CMD ["python", "-u", "b64_tool.py"]
