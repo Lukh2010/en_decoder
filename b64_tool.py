@@ -167,7 +167,7 @@ class Base64Tool:
         rsa_output_label = ctk.CTkLabel(rsa_frame, text="Output", font=ctk.CTkFont(size=14, weight="bold"))
         rsa_output_label.pack(anchor="w", padx=10, pady=(10, 5))
         
-        self.rsa_output_text = ctk.CTkTextbox(rsa_frame, height=80, font=ctk.CTkFont(size=12))
+        self.rsa_output_text = ctk.CTkTextbox(rsa_frame, height=120, font=ctk.CTkFont(size=12))
         self.rsa_output_text.pack(fill="x", padx=10, pady=(0, 10))
         
         # RSA Copy button

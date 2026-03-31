@@ -3,3 +3,5 @@ __pycache__/
 dist/
 build/
 .env
+Base64Tool.spec
+build.bat
