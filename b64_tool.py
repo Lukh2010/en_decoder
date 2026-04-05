@@ -106,7 +106,8 @@ class Base64Tool:
     
     def create_rsa_tab(self):
         """Create RSA tab content"""
-        rsa_frame = self.tabview.tab("RSA")
+        rsa_frame = ctk.CTkScrollableFrame(self.tabview.tab("RSA"))
+        rsa_frame.pack(fill="both", expand=True)
         
         # Key generation section
         key_frame = ctk.CTkFrame(rsa_frame)
