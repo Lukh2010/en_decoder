@@ -14,12 +14,12 @@
 
 ## 📥 Download
 
-Get the latest version from [Releases](https://github.com/lukh2010/base64-en-decoder/releases)
+Get the latest version from [Releases](https://github.com/Lukh2010/en_decoder/releases)
 
 ### Quick Start Options
 
 #### 🎯 Option 1: Direct Download (Recommended)
-1. Go to [Releases](https://github.com/lukh2010/base64-en-decoder/releases)
+1. Go to [Releases](https://github.com/Lukh2010/en_decoder/releases)
 2. Download `en_decoder.exe`
 3. Double-click to run - no installation needed!
 
@@ -58,7 +58,7 @@ Get the latest version from [Releases](https://github.com/lukh2010/base64-en-dec
 ### Local Development Setup
 ```bash
 # Clone the repository
-git clone https://github.com/lukh2010/base64-en-decoder.git
+git clone https://github.com/Lukh2010/en_decoder.git
 cd base64-en-decoder
 
 # Install dependencies
@@ -140,7 +140,7 @@ Only pushing version tags (e.g., `v1.0.0`) will create a new release.
 
 ### Getting Help
 1. Check this troubleshooting section
-2. Search existing [Issues](https://github.com/lukh2010/base64-en-decoder/issues)
+2. Search existing [Issues](https://github.com/Lukh2010/en_decoder/issues)
 3. Create a new issue with:
    - Your operating system
    - Steps to reproduce
