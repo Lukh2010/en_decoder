@@ -86,18 +86,10 @@ base64-en-decoder/
 
 **Note for Developers**: The `build.bat` script is included in the repository for easy local development and testing. Only build artifacts (`dist/`, `build/`, `*.spec`) are excluded from git.
 
-### Create Release
-```bash
-# Tag a new version (triggers GitHub Actions)
-git tag v1.0.0
-git push origin v1.0.0
-```
+##  Deployment
 
-This automatically:
-1. Runs tests
-2. Builds `en_decoder.exe`
-3. Creates a GitHub release
-4. Uploads the executable as an asset
+**Important**: Regular commits to `main` branch do NOT trigger releases. 
+Only pushing version tags (e.g., `v1.0.0`) will create a new release.
 
 ## 📦 Tech Stack
 
